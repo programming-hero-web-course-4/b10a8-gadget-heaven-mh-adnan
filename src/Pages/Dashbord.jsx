@@ -3,9 +3,12 @@
 const Dashbord = () => {
     return (
         <div>
-            Dashbord
+            <h1>Dashbord</h1>
         </div>
     );
 };
 
 export default Dashbord;
+
+
+

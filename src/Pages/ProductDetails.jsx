@@ -1,69 +1,32 @@
-// import { useParams } from 'react-router-dom';
-// import { useLoaderData } from 'react-router-dom';
-
-// const ProductDetails = () => {
-//   const { id } = useParams();
-//   const items = useLoaderData(); 
-//   const product = items.find((item) => item.id === parseInt(id));
-
-//   if (!product) {
-//     return <div>Product not found.</div>;
-//   }
-
-//   return (
-//     <div className="p-4">
-//       <h2 className="text-2xl font-bold">{product.product_title}</h2>
-//       <img src={product.image} alt={product.product_title} className="w-full h-auto mb-4" />
-//       <p className="text-lg font-semibold">Price: ${product.price.toFixed(2)}</p>
-//       <p>{product.description}</p>
-//       <h3 className="text-lg font-semibold mt-4">Specifications:</h3>
-//       <ul className="list-disc pl-5">
-//         {product.Specification.map((spec, index) => (
-//           <li key={index}>{spec}</li>
-//         ))}
-//       </ul>
-//       <p className="mt-4">Rating: {product.rating}</p>
-//       <p className="mt-2">Availability: {product.availability ? "In Stock" : "Out of Stock"}</p>
-//     </div>
-//   );
-// };
-
-// export default ProductDetails;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import { useParams } from 'react-router-dom';
-import { useLoaderData } from 'react-router-dom';
-import { useState } from 'react';
+import { useParams, useLoaderData } from "react-router-dom";
+import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ProductDetails = () => {
   const { id } = useParams();
   const items = useLoaderData();
   const product = items.find((item) => item.id === parseInt(id));
 
-  // State management for cart and wishlist
   const [cart, setCart] = useState([]);
   const [wishlist, setWishlist] = useState([]);
 
   const handleAddToCart = () => {
-    setCart((prevCart) => [...prevCart, product]);
-    alert(`${product.product_title} has been added to the cart.`);
+    if (!cart.includes(product)) {
+      setCart((prevCart) => [...prevCart, product]);
+      toast.success(`${product.product_title} has been added to the cart!`);
+    } else {
+      toast.info(`${product.product_title} is already in the cart!`);
+    }
   };
 
   const handleAddToWishlist = () => {
-    setWishlist((prevWishlist) => [...prevWishlist, product]);
-    alert(`${product.product_title} has been added to the wishlist.`);
+    if (!wishlist.includes(product)) {
+      setWishlist((prevWishlist) => [...prevWishlist, product]);
+      toast.info(`${product.product_title} has been added to the wishlist!`);
+    } else {
+      toast.info(`${product.product_title} is already in the wishlist!`);
+    }
   };
 
   if (!product) {
@@ -73,8 +36,14 @@ const ProductDetails = () => {
   return (
     <div className="p-4">
       <h2 className="text-2xl font-bold">{product.product_title}</h2>
-      <img src={product.image} alt={product.product_title} className="w-full h-auto mb-4" />
-      <p className="text-lg font-semibold">Price: ${product.price.toFixed(2)}</p>
+      <img
+        src={product.image}
+        alt={product.product_title}
+        className="w-full h-auto mb-4"
+      />
+      <p className="text-lg font-semibold">
+        Price: ${product.price.toFixed(2)}
+      </p>
       <p>{product.description}</p>
       <h3 className="text-lg font-semibold mt-4">Specifications:</h3>
       <ul className="list-disc pl-5">
@@ -83,7 +52,9 @@ const ProductDetails = () => {
         ))}
       </ul>
       <p className="mt-4">Rating: {product.rating}</p>
-      <p className="mt-2">Availability: {product.availability ? "In Stock" : "Out of Stock"}</p>
+      <p className="mt-2">
+        Availability: {product.availability ? "In Stock" : "Out of Stock"}
+      </p>
 
       <div className="mt-6 flex space-x-4">
         <button
@@ -99,8 +70,23 @@ const ProductDetails = () => {
           Add to Wishlist
         </button>
       </div>
+
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 };
 
 export default ProductDetails;
+
+
+

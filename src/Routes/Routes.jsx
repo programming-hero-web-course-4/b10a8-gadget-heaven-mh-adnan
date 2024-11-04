@@ -4,7 +4,10 @@ import Home from '../Pages/Home';
 import ProductDetails from '../Pages/ProductDetails'; 
 import Dashbord from '../Pages/Dashbord';
 import ItemsCard from '../components/ItemsCard';
+import Whitelist from '../Pages/Whitelist'
+import AddToCart from '../Pages/AddToCart'
 import Statistic from '../Pages/Statistic';
+
 
 const routes = createBrowserRouter([
   {
@@ -31,11 +34,13 @@ const routes = createBrowserRouter([
             element: <ProductDetails />,
             loader: () => fetch('../items.json'),
           },
+          
         ],
       },
       {
         path: '/dashboard',
         element: <Dashbord />,
+        loader: () => fetch('../items.json'),
       },
       {
         path: '/statistic',
@@ -43,9 +48,38 @@ const routes = createBrowserRouter([
         loader: () => fetch('../items.json'),
       },
 
+      {
+        path: '/whitelist',
+        element: <Whitelist/>,
+        loader: () => fetch('../items.json'),
+      },
+      {
+        path: '/cart',
+        element: <AddToCart/>,
+        loader: () => fetch('../items.json'),
+      },
+      
+      
+
+
+    
     ],
   },
 ]);
 
 export default routes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

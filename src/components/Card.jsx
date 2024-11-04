@@ -22,7 +22,7 @@ const Card = ({ coffee }) => {
         onClick={handleViewDetails} 
         className="text-purple-500 border border-purple-500 font-semibold py-2 rounded-full hover:bg-purple-100 transition duration-200"
       >
-        View Details
+        View Details 
       </button>
     </div>
   );
