@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1,
+    "product_title": "Dell XPS 13",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Laptops",
+    "price": 999.99,
+    "description": "A high-performance laptop with a sleek design.",
+    "Specification": [
+      "Processor: Intel Core i7",
+      "RAM: 16GB",
+      "Storage: 512GB SSD",
+      "Display: 13.3-inch FHD"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "product_title": "Apple MacBook Air (M1, 2020)",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Laptops",
+    "price": 999.99,
+    "description": "Lightweight and powerful with a Retina display.",
+    "Specification": [
+      "Processor: Apple M1",
+      "RAM: 8GB",
+      "Storage: 256GB SSD",
+      "Display: 13.3-inch Retina"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "product_title": "Apple MacBook Pro 13\" (M1, 2020)",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Laptops",
+    "price": 1299.99,
+    "description": "Professional laptop with a stunning Retina display.",
+    "Specification": [
+      "Processor: Apple M1",
+      "RAM: 8GB",
+      "Storage: 512GB SSD",
+      "Display: 13.3-inch Retina"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "product_title": "Apple MacBook Pro 16\" (2021)",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Laptops",
+    "price": 2399.99,
+    "description": "The ultimate pro laptop for professionals.",
+    "Specification": [
+      "Processor: Apple M1 Pro",
+      "RAM: 16GB",
+      "Storage: 512GB SSD",
+      "Display: 16-inch Liquid Retina XDR"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 5,
+    "product_title": "Apple iPhone 13",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "iPhones",
+    "price": 799.99,
+    "description": "The latest iPhone with advanced camera features.",
+    "Specification": [
+      "Display: 6.1-inch Super Retina XDR",
+      "Storage: 128GB",
+      "Camera: Dual 12MP",
+      "Battery: Up to 19 hours talk time"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 6,
+    "product_title": "Apple iPhone 13 Pro",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "iPhones",
+    "price": 999.99,
+    "description": "Professional-grade camera with ProMotion display.",
+    "Specification": [
+      "Display: 6.1-inch Super Retina XDR",
+      "Storage: 256GB",
+      "Camera: Triple 12MP",
+      "Battery: Up to 22 hours talk time"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "product_title": "Apple iPhone 12",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "iPhones",
+    "price": 699.99,
+    "description": "Powerful performance and amazing battery life.",
+    "Specification": [
+      "Display: 6.1-inch Super Retina XDR",
+      "Storage: 64GB",
+      "Camera: Dual 12MP",
+      "Battery: Up to 17 hours talk time"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 8,
+    "product_title": "Apple iPhone SE (2022)",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "iPhones",
+    "price": 499.99,
+    "description": "The most affordable iPhone with powerful features.",
+    "Specification": [
+      "Display: 4.7-inch Retina HD",
+      "Storage: 128GB",
+      "Camera: 12MP",
+      "Battery: Up to 15 hours talk time"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 9,
+    "product_title": "Razer Blade 15",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Laptops",
+    "price": 1999.99,
+    "description": "Powerful gaming laptop with an ultra-thin design.",
+    "Specification": [
+      "Processor: Intel Core i7",
+      "RAM: 16GB",
+      "Storage: 1TB SSD",
+      "Graphics: NVIDIA GeForce RTX 3060"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 10,
+    "product_title": "Apple Watch Series 7",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Smartwatches",
+    "price": 399.99,
+    "description": "The most advanced Apple Watch yet with a larger display.",
+    "Specification": [
+      "Display: Always-On Retina",
+      "Health Features: ECG, Blood Oxygen",
+      "Water Resistance: 50 meters",
+      "Battery Life: Up to 18 hours"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 11,
+    "product_title": "Samsung Galaxy Watch 4",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Smartwatches",
+    "price": 249.99,
+    "description": "Stylish smartwatch with health tracking features.",
+    "Specification": [
+      "Display: Super AMOLED",
+      "Health Features: Body Composition",
+      "Water Resistance: 50 meters",
+      "Battery Life: Up to 40 hours"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "product_title": "Anker Wireless Charger",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Accessories",
+    "price": 29.99,
+    "description": "Fast wireless charging for your devices.",
+    "Specification": [
+      "Input: 5V/2A",
+      "Output: 10W Max",
+      "Compatibility: Qi-enabled devices",
+      "LED indicator"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 13,
+    "product_title": "Apple AirPods Pro",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Accessories",
+    "price": 249.99,
+    "description": "Active Noise Cancellation with a customizable fit.",
+    "Specification": [
+      "Battery Life: 4.5 hours listening time",
+      "Charging: Wireless and Lightning",
+      "Water Resistance: Sweat and Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 14,
+    "product_title": "Sony WH-1000XM4",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Accessories",
+    "price": 349.99,
+    "description": "Industry-leading noise canceling wireless headphones.",
+    "Specification": [
+      "Battery Life: 30 hours",
+      "Charging: USB-C",
+      "Weight: 254g",
+      "Voice Assistant: Alexa-enabled"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 15,
+    "product_title": "Google Pixel 6",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "iPhones",
+    "price": 599.99,
+    "description": "The latest Google phone with AI features.",
+    "Specification": [
+      "Display: 6.4-inch AMOLED",
+      "Storage: 128GB",
+      "Camera: Dual 50MP",
+      "Battery: 4614mAh"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 16,
+    "product_title": "OnePlus 9",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "iPhones",
+    "price": 729.99,
+    "description": "Fast and smooth with a Hasselblad camera.",
+    "Specification": [
+      "Display: 6.55-inch Fluid AMOLED",
+      "Storage: 128GB",
+      "Camera: Triple 48MP",
+      "Battery: 4500mAh"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+
+
+  {
+    "id": 17,
+    "product_title": "Samsung Galaxy S23",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Phones",
+    "price": 799.99,
+    "description": "The flagship Samsung phone with a stunning display.",
+    "Specification": [
+      "Display: 6.1-inch Dynamic AMOLED",
+      "Storage: 128GB",
+      "Camera: Triple 50MP",
+      "Battery: 3900mAh"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 18,
+    "product_title": "Samsung Galaxy A40",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Phones",
+    "price": 299.99,
+    "description": "Affordable smartphone with great features.",
+    "Specification": [
+      "Display: 5.9-inch Super AMOLED",
+      "Storage: 64GB",
+      "Camera: Dual 16MP",
+      "Battery: 3100mAh"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 19,
+    "product_title": "Samsung Galaxy M31",
+    "image": "https://i.ibb.co.com/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "Phones",
+    "price": 249.99,
+    "description": "Powerful battery and great performance at an affordable price.",
+    "Specification": [
+      "Display: 6.4-inch Super AMOLED",
+      "Storage: 128GB",
+      "Camera: Quad 64MP",
+      "Battery: 6000mAh"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+
+  {
+    "id": 20,
+    "product_title": "MacBook Air M1",
+    "image": "https://i.ibb.co/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "MacBooks",
+    "price": 999.99,
+    "description": "Powerful battery and great performance with the Apple M1 chip.",
+    "Specification": [
+      "Processor: Apple M1",
+      "RAM: 8GB",
+      "Storage: 256GB SSD",
+      "Display: 13.3-inch Retina"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 21,
+    "product_title": "MacBook Pro 14\" M1 Pro",
+    "image": "https://i.ibb.co/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "MacBooks",
+    "price": 1999.99,
+    "description": "High-performance laptop for professionals with M1 Pro chip.",
+    "Specification": [
+      "Processor: Apple M1 Pro",
+      "RAM: 16GB",
+      "Storage: 512GB SSD",
+      "Display: 14-inch Liquid Retina XDR"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 22,
+    "product_title": "MacBook Pro 16\" M1 Max",
+    "image": "https://i.ibb.co/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "MacBooks",
+    "price": 3499.99,
+    "description": "Ultimate performance with M1 Max chip, designed for creators.",
+    "Specification": [
+      "Processor: Apple M1 Max",
+      "RAM: 32GB",
+      "Storage: 1TB SSD",
+      "Display: 16-inch Liquid Retina XDR"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 23,
+    "product_title": "MacBook Air 2022",
+    "image": "https://i.ibb.co/dbQtK8C/i-Phone-14-Pro-Deep-Purple-7300.jpg",
+    "category": "MacBooks",
+    "price": 1199.99,
+    "description": "Lightweight and powerful, perfect for everyday tasks.",
+    "Specification": [
+      "Processor: Apple M2",
+      "RAM: 8GB",
+      "Storage: 256GB SSD",
+      "Display: 13.6-inch Liquid Retina"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]

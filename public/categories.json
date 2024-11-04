@@ -1,17 +1,43 @@
+
+
+
+
+
+
 [
-    {
-      "id": 1,
-      "category": "Brewed Coffee",
-      "slug": "brewed-coffee"
-    },
-    {
-      "id": 2,
-      "category": "Iced Coffee",
-      "slug": "iced-coffee"
-    },
-    {
-      "id": 3,
-      "category": "Dessert Coffee",
-      "slug": "dessert-coffee"
-    }
-  ]
+  {
+    "id": 1,
+    "category": "All Products",
+    "slug": "all-products"
+  },
+  {
+    "id": 2,
+    "category": "Laptops",
+    "slug": "laptops"
+  },
+  {
+    "id": 3,
+    "category": "Phones",
+    "slug": "phones"
+  },
+  {
+    "id": 4,
+    "category": "Accessories",
+    "slug": "accessories"
+  },
+  {
+    "id": 5,
+    "category": "Smartwatches",
+    "slug": "smartwatches"
+  },
+  {
+    "id": 6,
+    "category": "MacBooks",
+    "slug": "macbooks"
+  },
+  {
+    "id": 7,
+    "category": "iPhones",
+    "slug": "iphones"
+  }
+]

@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import MainLayout from '../Layouts/MainLayout';
 import Home from '../Pages/Home';
-import Statistic from '../Pages/StatisticDetails';
+import Statistic from '../Pages/ProductDetails';
 import Dashbord from '../Pages/Dashbord';
 import ItemsCard from '../components/ItemsCard';
 
@@ -18,12 +18,12 @@ const routes = createBrowserRouter([
           {
             path: '/', 
             element: <ItemsCard />,
-            loader : ()=> fetch('../coffees.json'),
+            loader : ()=> fetch('../items.json'),
           },
           {
             path: 'category/:category', 
             element: <ItemsCard />,
-            loader : ()=> fetch('../coffees.json'),
+            loader : ()=> fetch('../items.json'),
           },
         ]
         
