@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // src/Pages/Statistics.jsx
 import React, { useState } from 'react';
 import {

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useParams, useLoaderData } from "react-router-dom";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
@@ -87,6 +88,17 @@ const ProductDetails = () => {
 };
 
 export default ProductDetails;
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -19,12 +19,3 @@ export default MainLayout;
 
 
 
-
-
-
-
-
-
-
-
-

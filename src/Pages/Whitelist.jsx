@@ -2,7 +2,7 @@
 const Whitelist = () => {
     return (
         <div>
-           whitelist
+            whitelist
         </div>
     );
 };
