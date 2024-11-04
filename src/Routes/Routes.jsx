@@ -40,6 +40,7 @@ const routes = createBrowserRouter([
       {
         path: '/statistic',
         element: <Statistic/>,
+        loader: () => fetch('../items.json'),
       },
 
     ],
